@@ -116,5 +116,12 @@ h2 {
 /* FOOTER */
 
 footer {
-	margin-top: 1em;
+	padding: 1em;
+	text-align: center;
+}
+footer li {
+	list-style-type: none;
+}
+footer a {
+	color: #aaa;
 }

@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Candal);
+	
+body {
+	background: #f2f2f2;
+}
+
+.mdl-shadow--2dp {
+	transition: box-shadow 0.25s ease;
+	transition: -moz-box-shadow 0.5s ease;
+	transition: -webkit-box-shadow 0.5s ease;
+}
+
+h1 {
+		font-family: "Candal", sans-serif;
+		font-size: 40px;
+		margin-top: 1em;
+}
+
+h2 {
+	font-family: "Candal", sans-serif;
+	font-size: 20px;
+}
+
+/* HEADER */
+
+
+/* GAMEBOX - GAME PLAY AREA */
+
+#gamebox {
+	display: none;
+	flex-wrap: wrap;
+	height: 50vh;
+	width: 50vh;
+	align-content: space-between;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding-top: 2em;
+}
+
+#gamebox div {
+	height: 30%;
+	width: 30%;
+	background-color: white;
+	text-align: center;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.x {
+	background-image: url("../img/x.gif");
+	background-size: contain;
+	background-position: center;
+}
+
+.o {
+	background-image: url("../img/o.gif");
+	background-size: contain;
+	background-position: center;
+}
+
+/* OPTIONS CARD */
+
+#options {
+	text-align: center;
+}
+
+#options h1 {
+	margin-bottom: 0px;
+}
+
+#options h2 {
+	margin-top: 0px;
+}
+
+#options div {
+	display: flex;
+	width: 50vh;
+	margin: 0 auto;
+	justify-content: space-around;
+}
+
+#options div div {
+	height: 20vh;
+	width: 20vh;
+	background-color: white;
+	cursor: pointer;
+}
+
+/* PLAY AGAIN */
+
+#play-again {
+	text-align: center;
+	display: none;
+}
+
+#play-again button {
+	font-family: "Candal", sans-serif;
+	font-size: 20px;
+}
+
+
+@media (max-width: 500px) {
+	#gamebox {
+		height: 90vw;
+		width: 90vw;
+	}
+	#options div {
+		width: 100%;
+	}
+	#options div div {
+		height: 30vw;
+		width: 30vw;
+	}
+}

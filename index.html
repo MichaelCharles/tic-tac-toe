@@ -1,0 +1,159 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <!-- Page Title -->
+    <title>Tic-Tac-Toe</title>
+
+    <meta charset="UTF-8">
+
+    <!-- Viewport for a responsive mobile first site. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fav Icon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Google -->
+    <meta name="description" content="A simple game of Tic-Tac-Toe." />
+    <meta name="keywords" content="tictactoe,tic-tac-toe,tic,tac,toe" />
+    <meta name="application-name" content="Tic-Tac-Toe" />
+
+
+    <!-- Facebook -->
+    <meta property="og:title" content="Tic-Tac-Toe" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="img/share.png" />
+    <meta property="og:description" content="Tic-Tac-Toe" />
+
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Tic-Tac-Toe" />
+    <meta name="twitter:description" content="A simple game of Tic-Tac-Toe." />
+    <meta name="twitter:image" content="img/share.png" />
+
+    <!-- Normalize.css for cross browser consistency -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css">
+
+    <!-- CSS libraries and frameworks -->
+
+    <!-- Material Design Lite -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.blue-deep_purple.min.css" />
+
+    <!-- Fonts -->
+
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Page conents -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">Tic-Tac-Toe</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation. We hide it in small screens. -->
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
+            <a class="mdl-navigation__link" href="http://michaelcharl.es/" target="_blank">Author</a>
+            <a class="mdl-navigation__link" href="http://github.org/mca62511" target="_blank">GitHub</a>
+            <a class="mdl-navigation__link" href="http://freecodecamp.com" target="_blank">FreeCodeCamp</a>
+          </nav>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Tic-Tac-Toe</span>
+        <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="http://michaelcharl.es/" target="_blank">Author</a>
+            <a class="mdl-navigation__link" href="http://github.org/mca62511" target="_blank">GitHub</a>
+            <a class="mdl-navigation__link" href="http://freecodecamp.com" target="_blank">FreeCodeCamp</a>
+        </nav>
+      </div>
+
+        <!-- Gamebox - Where the Xs and Os show up -->
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <!-- Apply classes "x" or "o" to change the background of these divs -->
+                <div id="gamebox">
+                    
+                    <div class="mdl-shadow--2dp">
+
+                    </div>
+                    <div class="mdl-shadow--2dp">
+
+                    </div>
+                    <div class="mdl-shadow--2dp">
+
+                    </div>
+                    <div class="mdl-shadow--2dp">
+
+                    </div>
+                    <div class="mdl-shadow--2dp">
+
+                    </div>
+                    <div class="mdl-shadow--2dp">
+
+                    </div>
+                    <div class="mdl-shadow--2dp">
+
+                    </div>
+                    <div class="mdl-shadow--2dp">
+
+                    </div>
+                    <div class="mdl-shadow--2dp">
+
+                    </div>
+                </div>
+
+                <div id="options">
+                    <h1>Choose your weapon.</h1>
+                    <h2>X always goes first.</h2>
+                    <div>
+                        <!-- Apply classes "x" or "o" to change the background of these divs -->
+                        <div class="mdl-shadow--2dp x choice">
+
+                        </div>
+                        <div class="mdl-shadow--2dp o choice">
+
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="play-again">
+                    <h1>You lose!</h1>
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Play Again?</button>
+                </div>
+            </div>
+        </main>
+        <footer class="mdl-mini-footer">
+          <div class="mdl-mini-footer__left-section">
+            <div class="mdl-logo">Tic-Tac-Toe</div>
+            <ul class="mdl-mini-footer__link-list">
+              <li>A project by <a href="http://michaelcharl.es/">MichaelCharl.es/Aubrey</a> for <a href="http://freecodecamp.com">FreeCodeCamp</a></li>
+            </ul>
+          </div>
+        </footer>
+    </div>
+
+    <!-- Load third party JavaScript frameworks or libraries. -->
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <!-- Material Design Lite -->
+    <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
